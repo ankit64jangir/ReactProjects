@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import { data } from "./data";
 import {
-  MDBBtn,
   MDBCard,
   MDBCardBody,
   MDBCardImage,
   MDBCardTitle,
-  MDBCardText,
   MDBCol,
   MDBContainer,
   MDBRow,
@@ -14,7 +12,7 @@ import {
 import "./App.css"
 
 const App = () => {
-  const [Card, setCard] = useState(data);
+  const [Card] = useState(data);
 
   return (
     <>
